@@ -93,3 +93,17 @@ ssh cs15lwi22<xxx>@ieng6.ucsd.edu "<command>"
 run multiple commands by using `;` inside the double quote to separate commands.
 
 ![VS Code](./Week2/CMD2.png)
+
+I use the following command to run WhereAmI.java:
+
+```bash
+scp ./WhereAmI.java cs15lwi22aif@ieng6.ucsd.edu:~/ && ssh cs15lwi22aif@ieng6.ucsd.edu
+```
+
+Then I press up to retrieve the last command ran on remote, where the following command is executed after I press enter:
+
+```bash
+java WhereAmI.java
+```
+
+In total, it takes one mouse click (highlight the terminal), two up keys, and two enters. 
