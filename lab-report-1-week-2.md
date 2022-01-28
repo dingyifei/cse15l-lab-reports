@@ -94,7 +94,9 @@ run multiple commands by using `;` inside the double quote to separate commands.
 
 ![VS Code](./Week2/CMD2.png)
 
-I use the following command to run WhereAmI.java after I finished editing in VSC:
+I use the following workflow to edit and run WhereAmI.java:
+
+Edit code in VSC, then run the following command by pressing up and enter.
 
 ```bash
 scp ./WhereAmI.java cs15lwi22aif@ieng6.ucsd.edu:~/ && ssh cs15lwi22aif@ieng6.ucsd.edu
