@@ -20,8 +20,9 @@ The output would be similar to tho following:
 
 ### Logging into ieng6 and execute the tests:
 
-Indeed the files are copied, we are able to run `make test` in markdown-parse:
+Loggin into ieng6 with `ssh`. Indeed the files are copied, we are able to run `make test` in markdown-parse:
 
+![](./Week6/LOGIN.png)
 ![](./Week6/Copy2.png)
 
 
